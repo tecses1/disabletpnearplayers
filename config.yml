@@ -1,0 +1,21 @@
+#Distance to disable the commands.
+disable-teleport-distance: 100
+#Distance to disable block breaking.
+disable-mining-distance: 50
+#Disable ender pearl damage?
+#Time in seconds to end treaties
+treaty-time: 60
+disable-enderpearl-damage: true
+#Update all players locations. 20 = 1 second.
+update-time: 100
+#Worlds exempt from disabling any commands.
+exempt-worlds:
+- Spawn
+#Commands to disable. Currently on essentials is supported.
+disabled-commands:
+  essentials:
+    - tp
+    - back
+    - home
+    - spawn
+    

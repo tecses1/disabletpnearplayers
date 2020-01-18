@@ -1,0 +1,20 @@
+name: DisableTeleportNearPlayers
+main: io.github.tecses1.DisableTeleportNearPlayers.Main
+version: 1.2
+soft-depend: [Parties]
+commands:
+   dt:
+     description: Basic command for DisableTeleportNearPlayers. Try /dt help
+     usage: try /dt help
+     permission: dtnp.dt
+     permission-messsage: You don't have permission for that command.
+   treaty:
+     description: Allows you to create a treaty with a player.
+     usage: /treaty [player]
+     permission: dtnp.treaty
+     permission-messsage: You don't have permission for that command.
+   dthome:
+     description: Sets your home for the plugin- disabling block breaking near it.
+     usage: /dthome
+     permission: dtnp.home
+     
